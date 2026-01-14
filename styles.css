@@ -106,7 +106,7 @@ nav input:checked ~ .humberger_menu::after {
 }
 
 nav input:checked ~ .humberger_menu {
-  translate: 0 10px;
+  translate: 0 8px;
   rotate: -48deg;
 }
 
@@ -287,7 +287,7 @@ main #service .service_card .service_card__item p.card_content {
 
 .project_item_title .arrow_up {
   width: 20px;
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 .project_item_description {
@@ -321,7 +321,7 @@ main #service .service_card .service_card__item p.card_content {
 }
 
 .green_chip {
-  background-color: rgb(86, 182, 86, .2);
+  background-color: rgb(86, 182, 86, 0.2);
   color: green;
   padding: 4px 5px;
   border-radius: 10px;
@@ -461,10 +461,9 @@ footer {
     font-size: 4rem;
   }
 
-  
-.project_items {
-  grid-template-columns: 1fr 1fr;
-}
+  .project_items {
+    grid-template-columns: 1fr 1fr;
+  }
 
   #project h1 {
     display: flex;
@@ -472,7 +471,7 @@ footer {
   }
 
   .project_item {
-    grid-template-columns: 1fr 3fr
+    grid-template-columns: 1fr 3fr;
   }
 
   #contact form input,
